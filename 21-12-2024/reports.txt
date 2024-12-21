@@ -1,0 +1,12 @@
+1-->education vs income
+2-->gender vs income
+3-->population
+4-->age vs days worked
+5-->age vs parents status
+6-->age vs income
+7-->marital status vs gender
+8-->country vs citizenship
+9-->income vs citizenship
+10-->marital status vs income 
+11-->days worked vs income
+12-->income vs tax payment status
