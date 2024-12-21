@@ -1,0 +1,34 @@
+basic my sql queries on students table...
+db-67b4_COE
+
+
+1-> select * from students where city="hyderabad";
+2->select * from students where city="hyderabad" or city="pune";
+3->select * from students where (city="banglore") or (city="pune" and gender="male") or (city="Hyderabad" and gender="female");
+4->select * from students where ( city="hyderabad" and (gender="male" and marks>70) or (gender="female" and marks>50)) or (city="pune" and gender="male") and  city!="Banglore";
+5-> select * from students where (marks>70 and marks<80 ) and (city="Hyderabad" or city="Banglore");
+6->select * from students where sname like "s%i";
+7->select city,count(Sno) from students group by city;
+8->select city,avg(marks) as avg from students group by city order by avg desc;
+9->select city,max(marks) as max from students group by city ;
+10->select * from students where city="hyderabad" order by marks desc limit 1;
+
+
+
+
+
+1->select s.sname,o.amt from salespeople s,customers c ,orders o where s.snum=c.snum and c.cnum=o.cnum and o.amt=(select max(o.amt) as high from orders o);
+2->select count(c.cnum),c.snum,s.sname from customers c ,salespeople s where  c.snum=s.snum group by s.snum;
+3->select c.cname,c.cnum,count(o.onum) from customers c,orders o where o.cnum=c.cnum group by c.cnum,c.cname order by count(o.onum) desc limit 1;
+4-> select s.sname ,avg(o.amt) from salespeople s ,customers c,orders o where s.snum=c.snum and c.cnum=o.cnum group by s.snum;
+5->select c.cnum,c.cname,o.amt from customers c ,orders o where o.cnum=c.cnum and  o.amt=(select max(o1.amt) from orders o1);
+6->select s.sname,o.amt,c.city,c.cnum from salespeople s,customers c ,orders o where s.snum=c.snum and c.cnum=o.cnum and o.amt=(select max(o.amt) as high from orders o) order by city;
+7->select s.snum,s.sname ,avg(c.rating) from salespeople s ,customers c where c.snum=s.snum  order by s.snum desc limit 1;
+8->
+9->select s.snum,s.sname,sum(o.amt) from salespeople s,customers c ,orders o where s.snum=c.snum and c.cnum=o.cnum group by s.sname;
+10->
+11->
+
+
+
+
