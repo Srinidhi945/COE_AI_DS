@@ -1,0 +1,5 @@
+SaleID,ProductID,CustomerName,SaleDate,QuantitySold,TotalSale
+1,1,John Doe,2025-02-01,1,899.99
+2,2,Jane Smith,2025-02-02,3,2099.97
+3,3,Sam Johnson,2025-02-03,2,99.98
+4,4,Alice Brown,2025-02-04,1,129.99
