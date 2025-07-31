@@ -1,0 +1,7 @@
+collab notebooks:
+RAG
+
+discussion:
+encoder decorder ,lanchain,
+chunking->embedding->model->retriver
+open ai ,gemini ai 

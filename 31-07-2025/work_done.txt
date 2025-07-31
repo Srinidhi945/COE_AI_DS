@@ -1,0 +1,5 @@
+collab notebooks:
+Chatbot_memory
+
+discussion:
+redis,q and a chatbot ,langsmith

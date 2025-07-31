@@ -1,0 +1,5 @@
+collab notebooks:
+summarize_t5
+hf_summarise_pegasus
+
+discussion:summarization models ,hugging face models

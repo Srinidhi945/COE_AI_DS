@@ -1,0 +1,9 @@
+collab notebooks:
+RAG_Weaviate
+PromptTemplate
+
+discussion: Weaviate,longchain,
+prompt engineerning
+fiass vector database
+
+
