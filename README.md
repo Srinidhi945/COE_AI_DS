@@ -1,7 +1,5 @@
 # Hands-on AI & Data Science: COE Program Portfolio
 
-![AI Banner](https://i.imgur.com/2K4V152.png) 
-
 Welcome to my portfolio of hands-on projects in Artificial Intelligence and Data Science. This repository is a collection of notebooks developed during my training at the Center of Excellence (COE) program.
 
 ---
