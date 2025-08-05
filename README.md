@@ -1,7 +1,5 @@
 # Hands-on AI & Data Science: COE Program Portfolio
 
-![AI Banner](https://i.imgur.com/2K4V152.png) 
-
 Welcome to my portfolio of hands-on projects in Artificial Intelligence and Data Science. This repository is a collection of notebooks developed during my training at the Center of Excellence (COE) program.
 
 ---
@@ -47,7 +45,7 @@ You have two options to get the files:
 
 * **Option A: Git Clone (Recommended)**
     ```sh
-    git clone [https://github.com/Srinidhi945/COE_AI_DS.git](https://github.com/Srinidhi945/COE_AI_DS.git)
+    git clone https://github.com/Srinidhi945/COE_AI_DS.git
     cd COE_AI_DS
     ```
 * **Option B: Download Manually**
